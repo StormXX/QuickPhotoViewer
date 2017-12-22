@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
     :git => 'https://github.com/StormXX/QuickPhotoViewer.git',
     :tag => '1.0.0'
   }
+  s.source_files = "QuickPhotoViewer/*.swift"
+
   s.platform = :ios, '10.0'
   s.requires_arc = true
 
